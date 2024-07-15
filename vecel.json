@@ -9,8 +9,8 @@
     ],
     "routes": [
       {
-        "src": "/api/.*",
-        "dest": "/api/db.json"
+        "src": "*",
+        "dest": "db.json"
       }
     ],
     "env": {
