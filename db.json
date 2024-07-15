@@ -1,0 +1,214 @@
+{
+  "registeredUsers": [
+    {
+      "email": "aaa",
+      "password": "aaa",
+      "cpassword": "aaa",
+      "id": 1
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "abc",
+      "cpassword": "abc",
+      "id": 2
+    },
+    {
+      "email": "qqq@gmail.com",
+      "password": "qqq",
+      "cpassword": "qqq",
+      "id": 3
+    }
+  ],
+  "questions": [
+    {
+      "questionText": "1. AngularJS is a ____?",
+      "options": [
+        {
+          "text": "A. Java Framework"
+        },
+        {
+          "text": "B. Javascript Framework",
+          "correct": true
+        },
+        {
+          "text": "C. HTML Framework"
+        },
+        {
+          "text": "D. SQL Framework"
+        }
+      ],
+      "explanation": "Answer: B) AngularJS is a JavaScript framework."
+    },
+    {
+      "questionText": "2. AngularJS is perfect for?",
+      "options": [
+        {
+          "text": "A. MPAs"
+        },
+        {
+          "text": "B. DPAs"
+        },
+        {
+          "text": "C. CPAs"
+        },
+        {
+          "text": "D. SPAs",
+          "correct": true
+        }
+      ],
+      "explanation": "Answer: D) AngularJS is perfect for SPAs."
+    },
+    {
+      "questionText": "3. Choose the reactor which is used to bind the application data to the HTML view in AngularJS.",
+      "options": [
+        {
+          "text": "A. ng-bind directives",
+          "correct": true
+        },
+        {
+          "text": "B. ng-model directives"
+        },
+        {
+          "text": "C. ng-init directives"
+        },
+        {
+          "text": "D. ng-app directives"
+        }
+      ],
+      "explanation": "Answer: A) ng-bind directive is used to bind the application data to the HTML view in AngularJS."
+    },
+    {
+      "questionText": "4. Choose the correct syntax for writing AngularJS expression.",
+      "options": [
+        {
+          "text": "A. [expression]"
+        },
+        {
+          "text": "B. {{expressions}}",
+          "correct": true
+        },
+        {
+          "text": "C. {{{expressions}}}"
+        },
+        {
+          "text": "D. {expressions}"
+        }
+      ],
+      "explanation": "Answer: B) {{expressions}} is the correct syntax."
+    },
+    {
+      "questionText": "5. Choose the advantage of Angular JS among the following.",
+      "options": [
+        {
+          "text": "A. it provides reusable components"
+        },
+        {
+          "text": "B. it uses dependancy injection and makes use of sepration of concerns"
+        },
+        {
+          "text": "C. it is unit-testable"
+        },
+        {
+          "text": "D. all of the above",
+          "correct": true
+        }
+      ],
+      "explanation": "Answer: D) All of the above advantages of Angular JS"
+    },
+    {
+      "questionText": "6. Choose the incorrect AngularJS filter.",
+      "options": [
+        {
+          "text": "A. orderby"
+        },
+        {
+          "text": "B. email",
+          "correct": true
+        },
+        {
+          "text": "C. currency"
+        },
+        {
+          "text": "D. lowercase"
+        }
+      ],
+      "explanation": "Answer: B) email is not an AngularJS filter."
+    },
+    {
+      "questionText": "7. Who is the father of AngularJS?",
+      "options": [
+        {
+          "text": "A. Misko Hevery",
+          "correct": true
+        },
+        {
+          "text": "B. Brad Green"
+        },
+        {
+          "text": "C. Mike Adams"
+        },
+        {
+          "text": "D. Adam Bronze"
+        }
+      ],
+      "explanation": "Answer: A) Misko Hevery is the father of AngularJS."
+    },
+    {
+      "questionText": "8. The total $RootScope an AngularJS application can have is?",
+      "options": [
+        {
+          "text": "A. 0"
+        },
+        {
+          "text": "B. 1",
+          "correct": true
+        },
+        {
+          "text": "C. 2"
+        },
+        {
+          "text": "D. 3"
+        }
+      ],
+      "explanation": "Answer:  B) Total $RootScope an AngularJS application can have is 1."
+    },
+    {
+      "questionText": "9. Among the following which can be used to write AngularJS directives",
+      "options": [
+        {
+          "text": "A. Attribute"
+        },
+        {
+          "text": "B. Class Name"
+        },
+        {
+          "text": "C. Tag"
+        },
+        {
+          "text": "D. All of the above",
+          "correct": true
+        }
+      ],
+      "explanation": "Answer: D) All of the above can be used to write the AngularJS directives."
+    },
+    {
+      "questionText": "10. Among the following choose the one which is responsible for the startup of the angular 2 projects.",
+      "options": [
+        {
+          "text": "A. app.ts"
+        },
+        {
+          "text": "B. main.ts",
+          "correct": true
+        },
+        {
+          "text": "C. index.js"
+        },
+        {
+          "text": "D. angular.cli.json"
+        }
+      ],
+      "explanation": "Answer: B) main.ts is Responsible for the startup of the angular 2 project"
+    }
+  ]
+}
